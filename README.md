@@ -1,6 +1,8 @@
 # angular-ssr-no-flickering-example
 This example demostrates that angular ssr has no visible flickering when switching between server and browser version 
 
+It has been made to demonstrate this issue: https://github.com/ionic-team/ionic/issues/21245
+
 It visualizes the loading process by showing the text "Server" and "Browser" in the app-header and on the page-header, depending of where the content was rendered.
 
 **To see it in detail:**
@@ -13,11 +15,13 @@ It visualizes the loading process by showing the text "Server" and "Browser" in 
      -> The only thing that changes is the 'Browser/Server' text
 
 
-This Example has been made in **comparison** to the complete same application in ionic, which includes visible flickering: 
+**Comparison Project**
+
+This Example has been made in comparison to a complete same application in ionic, which includes visible flickering: 
 https://github.com/KevinBassaDevelopment/ionic-ssr-flickering-example/tree/master
 
 
-The **live examples** can be compared here:
+**Live Examples**
 
 https://angular-ssr.bassa-solutions.at/
 
