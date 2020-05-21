@@ -1,0 +1,19 @@
+<div class="myheader">
+    <div class="title">
+      This is my blog <span *ngIf="this.isBrowser" class="isbrowser"> [Is Browser]</span><span *ngIf="!this.isBrowser" class="isbrowser"> [Is Server]</span>
+    </div>
+  </div>
+
+<div>
+  <div class="mycard" *ngFor="let p of posts">
+    <img src="{{p.image}}">
+    <div class="cardheader">
+      <div class="cardSubtitle">{{p.category}}</div>
+      <div class="cardtitle">{{p.title}}</div>
+    </div>
+    <div class="cardcontent">
+      {{p.description}}
+    </div>
+    <button  [routerLink]="'/page1'">Read more</button>
+  </div>
+</div>

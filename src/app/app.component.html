@@ -1,0 +1,4 @@
+<div class="rootappcontainer">
+  <div class="statictesttext">Text on Ion-App Root<span *ngIf="this.isBrowser"  class="isbrowser"> [Is Browser]</span><span class="isbrowser" *ngIf="!this.isBrowser"> [Is Server]</span></div>
+  <router-outlet></router-outlet>
+</div>
