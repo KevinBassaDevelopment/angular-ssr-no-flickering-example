@@ -14,3 +14,10 @@ To see it in detail:
 
 This Example has been made in comparison to the complete same application in ionic, which includes visible flickering: 
 https://github.com/KevinBassaDevelopment/ionic-ssr-flickering-example/tree/master
+
+
+The deployed examples can be compared here:
+
+https://angular-ssr.bassa-solutions.at/
+
+https://ionic-ssr.bassa-solutions.at/
